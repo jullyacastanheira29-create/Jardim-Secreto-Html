@@ -1,18 +1,12 @@
-* ================= RESET ================= */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ================= BODY ================= */
-
 body{
     font-family: Arial, sans-serif;
 }
-
-/* ================= BANNER ================= */
 
 .banner{
 
@@ -25,8 +19,6 @@ body{
   border-bottom: 3px solid #4A5D23;
 }
 
-/* ================= IMAGEM ================= */
-
 .imagem-banner{
 
   width: 100%;
@@ -36,4 +28,65 @@ body{
   object-fit: cover;
 
   display: block;
+}
+
+.populares{
+
+  padding: 50px;
+
+  background-color: #F9F9F7;
+}
+
+.topo-populares h2{
+
+  font-size: 36px;
+
+  color: #4A5D23;
+
+  margin-bottom: 30px;
+}
+
+.grade{
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+}
+
+.quadrado{
+
+  height: 180px;
+
+  background-color: #D9E2D5;
+
+  border-radius: 12px;
+
+  border: 2px solid #8DAA81;
+
+  transition: 0.3s;
+}
+
+.quadrado:hover{
+
+  transform: scale(1.03);
+}
+
+.veja-mais{
+
+  text-align: center;
+
+  margin-top: 30px;
+}
+
+.veja-mais p{
+
+  color: #4A5D23;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  cursor: pointer;
 }
